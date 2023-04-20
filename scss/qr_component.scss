@@ -1,0 +1,32 @@
+@use "variable" as v;
+.qr_card {
+  border-radius: 20px;
+  background-color: v.$primary;
+  font-family: v.$ff;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 320px;
+  padding: 16px;
+  &__code {
+    border-radius: 20px;
+  }
+  &__text {
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    &__title {
+      font-size: 1.5rem;
+      font-weight: v.$fw-bold;
+      color: v.$fc_3;
+      line-height: 2rem;
+    }
+    &__content {
+      font-weight: v.$fw-nor;
+      font-size: 1rem;
+      color: v.$fc_2;
+      line-height: 1.25rem;
+    }
+  }
+}
