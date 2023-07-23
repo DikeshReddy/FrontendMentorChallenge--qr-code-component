@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 15px;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+
+.qr-card {
+  background-color: white;
+  border-radius: 18px;
+  padding: 18px;
+  text-align: center;
+  width: 320px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.qr-code {
+  border-radius: 18px;
+  width: 100%;
+}
+
+.title {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.content {
+  color: hsl(220, 15%, 55%);
+}
+
+.text-content {
+  width: 90%;
+  margin: auto;
+}
